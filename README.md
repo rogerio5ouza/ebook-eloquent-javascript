@@ -1,1 +1,1 @@
-# ebook-eloquent-javascript
+# eBook Eloquent JavaScript 3RD Edition
