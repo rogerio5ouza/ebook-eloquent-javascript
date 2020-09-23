@@ -1,4 +1,4 @@
-# eBook Eloquent JavaScript 3RD Edition 
+# Eloquent JavaScript 3RD Edition 
 ## (Written by Marijn Haverbeke)
 
 ## Part 1: Language
