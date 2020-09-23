@@ -1,4 +1,5 @@
-# eBook Eloquent JavaScript 3RD Edition (Written by Marijn Haverbeke)
+# eBook Eloquent JavaScript 3RD Edition 
+## (Written by Marijn Haverbeke)
 
 ## Part 1: Language
  1. Values, Types, and Operators
