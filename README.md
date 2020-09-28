@@ -1,5 +1,6 @@
 # Eloquent JavaScript 3RD Edition 
-## (Written by Marijn Haverbeke)
+
+![Eloquent JavaScript](img/ebook-js.png)
 
 ## Part 1: Language
  1. Values, Types, and Operators
