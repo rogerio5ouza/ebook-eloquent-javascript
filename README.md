@@ -1,4 +1,4 @@
-# Eloquent JavaScript 3RD Edition 
+# Eloquent JavaScript 3ª edição 
 
 ![Eloquent JavaScript](img/ebook-js.png)
 
