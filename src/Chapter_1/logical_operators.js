@@ -17,3 +17,10 @@ console.log(false || false);
 
 console.log(true != false);
 console.log(false != true);
+
+// O último operador lógico não é unário, nem binário, mais alternativo, operando três valoes. É escrito com um ponto de interrogação e dois pontos:
+
+console.log(true ? 1 : 2);
+// 1
+console.log(false ? 1 : 2);
+// 2
