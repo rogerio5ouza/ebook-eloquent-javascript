@@ -15,8 +15,13 @@ console.log(false || false);
 
 // NOT é escrito com um ponto de exclamação (!). É um operador unário que inverte o valor dado a ele -! True fornrce falso, False fornece True.
 
-console.log(true != false);
-console.log(false != true);
+verdadeiro = true
+falso = false
+
+console.log(verdadeiro != true);
+console.log(verdadeiro != false);
+console.log(verdadeiro);
+console.log(falso);
 
 // O último operador lógico não é unário, nem binário, mais alternativo, operando três valoes. É escrito com um ponto de interrogação e dois pontos:
 
