@@ -28,3 +28,13 @@ console.log(mood); // light
 
 mood = "dark";
 console.log(mood); // dark
+
+/*
+Vejamos outro exemplo.
+Para lembrar a quantidade de dólares que Luigi lhe deve, você cria uma ligação. E então, 
+quando ele devolve $ 35, você dá a esta ligação um novo valor:
+*/
+
+let luigiDebt = 140;
+luigiDebt = luigiDebt - 35;
+console.log(luigiDebt); // 105
