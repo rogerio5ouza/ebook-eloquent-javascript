@@ -38,3 +38,18 @@ quando ele devolve $ 35, você dá a esta ligação um novo valor:
 let luigiDebt = 140;
 luigiDebt = luigiDebt - 35;
 console.log(luigiDebt); // 105
+
+/* 
+Quando definimos uma vinculação sem atribuir um valor a ela, o tentáculo não têm nada para agarrar, então termina no ar.
+Se solicitarmos o valor de um vínculo vazio, obteremos o valor não definido. Uma instrução simples pode definir vários vínculos.
+As definições devem ser separadas por vírgulas:
+*/
+
+let one = 1, two = 2;
+console.log(one + two); // 3
+
+// As palavras VAR e CONST também podem ser usadas para criar associações, de maneira semelhante a LET:
+
+var name = "Ayda";
+const greeting = "Hello ";
+console.log(greeting + name); // Hello Ayda
