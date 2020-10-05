@@ -17,3 +17,18 @@ quando pressionamos F12.
 */
 
 console.log();
+
+/*
+Valores de retorno
+
+Mostrar uma caixa de diálogo ou escrever texto na tela é um efeito colateral. Muitas funções são úteis devido aos 
+efeitos colaterais que produzem. As funções também podem produzir valores e, nesse caso, não precisam ter um efeito
+colateral para serem úteis. Por exemplo, a função Math.max pega qualquer quantidade de argumentos numéricos e retorna
+o maior:
+*/
+
+console.log(Math.max(2, 4)); // 4
+
+// A função Math.min pega qualquer quantidade de argumentos numéricos e retorna o menor:
+
+console.log(Math.min(2, 4) + 100); // 102
