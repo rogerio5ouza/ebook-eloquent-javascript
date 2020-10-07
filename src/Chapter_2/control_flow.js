@@ -45,3 +45,15 @@ if (!Number.isNaN) {
 } else {
     console.log("Hey. Why didn't you give me a number?");
 }
+
+// Se tivermos mais de dois caminhos para escolher, podemos "encadear" vários pares de IF/ELSE juntos:
+
+let num = Number("Pick a number");
+
+if (num < 10) {
+    console.log("Small");
+} else if (num < 100) {
+    console.log("Medium");
+} else {
+    console.log("Large");
+}
