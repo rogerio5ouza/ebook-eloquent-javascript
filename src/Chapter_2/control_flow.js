@@ -31,3 +31,17 @@ if (!Number.isNaN) {
     console.log("Your number is the square root of " +
         theNumber * theNumber);
 }
+
+/*
+Frequentemente, não temos apenas o  código que executa quando uma condição for True, mas também o código que 
+lida com o outro caso (False). Podemos usar a palavra-chave ELSE, junto com IF, para criar dois caminhos de 
+execução alternativos separados:
+*/
+
+let theNumber = Number(prompt("Pick a number"));
+if (!Number.isNaN) {
+    console.log("Your number is the square root of " +
+        theNumber * theNumber);
+} else {
+    console.log("Hey. Why didn't you give me a number?");
+}
