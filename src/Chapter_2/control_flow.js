@@ -1,5 +1,5 @@
 /*
-Controle de fluxo
+Controle de Fluxo
 
 Qaundo um programa contém mais de uma instrução, as instruções são executadas como se fossem uma história,
 de cima para baixo. O programa de exempo abaixo, possui duas intruções.
@@ -16,3 +16,18 @@ A função Number converte um valor em um número. Precisamos dessa conversão p
 é um valor de String e queremos um Number. Existem funções semelhantes chamadas String e Boolean que
 convertem valores para esses tipos.
 */
+
+/*
+Execução Condicional
+
+A execução condicional é criada com a palavra-chave IF em JavaScript. Em um caso simples, queremos que um código seja
+executado se, e somente se, uma certa condição for mantida. Podemos, por exemplo, querer mostrar o quadrado da entrada
+apenas se a entrada for realmente um número:
+
+*/
+
+let theNumber = Number(prompt("Pick a number"));
+if (!Number.isNaN) {
+    console.log("Your number is the square root of " +
+        theNumber * theNumber);
+}
