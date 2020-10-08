@@ -41,3 +41,19 @@ while (counter < 10) {
 }
 
 console.log(result); // 1024
+
+/*
+Um loop DO é uma estrutura de controle semelhante a um loop WHILE. Ele difere apenas em um ponto: um loop DO sempre
+executa seu corpo pelo menos uma vez e começa a testar se deve parar somente após a primeira execução. Para testar isso, 
+temos o programa abaixo, onde o teste aparece após o corpo do loop.
+
+Este programa o forçará a inserir um nome. Ele perguntará novamente a até obter algo que não seja uma string vazia.
+Aplicando o operador !, convertemos um valor para o tipo booleano antes de negá-lo, e todas as strings, exceto " ",
+serão convertidas em verdadeiro. Isso significa que o loop continua girando até que forneçamos um nome não vazio.
+*/
+
+let yourName;
+do {
+    yourName = prompt("Who are you?");
+} while (!yourName);
+console.log(yourName); 
