@@ -45,7 +45,8 @@ Se solicitarmos o valor de um vínculo vazio, obteremos o valor não definido. U
 As definições devem ser separadas por vírgulas:
 */
 
-let one = 1, two = 2;
+let one = 1,
+    two = 2;
 console.log(one + two); // 3
 
 // As palavras VAR e CONST também podem ser usadas para criar associações, de maneira semelhante a LET:
